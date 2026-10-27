@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+.logo{
+
+   padding: 10px;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.logoimg img{
+    width:70px; 
+    padding-left: 10px;   
+}
+.mobileview {
+    margin-left: auto;
+    font-size: 38px;
+    margin-right: 15px;
+    margin-top: 10px;
+    display:none;  
+}  
+.menus ul li{
+    list-style-type: none;
+    padding: 30px;
+    display: inline-block;
+}
+
+.menus ul li:hover{
+    background-color: #fec884;
+    transition: all .7s ease-in-out;
+}
+.menus ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+}
+.menus ul li:hover a{
+    color:#ffff;
+}
+
+.supermenu{
+    position: relative;
+}
+
+.supermenu:hover .submenus {
+    display: block;
+}
+.submenus{
+    position: absolute;
+    top:55px;
+    left:0;
+    display: none;
+}
+
+.submenus li{
+    display:block !important; 
+    width:200px; 
+    margin: 5px;
+    background-color: #2525248d;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.menus .contactbtn{
+    background-color: #ea0061;
+    padding:20px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.contactbtn{
+    color:#fff;
+}
+
+.herosec{
+    background-image: url('asserts/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    padding:70px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herocontent{
+    background-color: #ffffff57;
+    padding: 30px 30px;
+    margin: 10px 0;
+    text-align: center;
+    width:600px;
+}
+.herocontent h1{
+    padding: 10px;
+    font-size: 46px;
+}
+
+.herocontent p{
+    padding: 10px;
+    font-size: 14px;
+}
+.btns button{
+    /* padding: 15px 20px; */
+    border: none;
+    border-radius: 10px;
+}
+
+
+.btns button:nth-child(1){
+    background-color: #fec884;
+    font-size: 18px;
+    color:#fff;
+    padding: 15px 30px;
+    border-radius: 10px solid #cd8b3b91;   
+}
+
+.btns button:nth-child(2){
+    background-color: #cb8023f8;
+    font-size: 18px;
+    color:#fff;
+    padding: 15px 30px;   
+}
+.btns button:nth-child(3){
+    background-color: #cb8023f8;
+    font-size: 18px;
+    color:#fff;
+    padding: 15px 30px;   
+}
+
+
+
+.lpart{
+    padding: 70px 60px;
+    background-color: #dadfe7;
+}
+.headpart{
+    padding: 20px 20px;
+}
+.headpart h1{
+    font-size: 36px;
+    padding: 10px;
+}
+.headpart h1 span{
+    color:#cb8023f8;
+    font-style: italic;
+}
+.headpart p{
+    padding:10px;
+}
+.headpart .line{
+    border:3px solid #ea0061;
+    width:200px;
+    margin:10PX 0;
+    border-radius: 10px;
+
+}
+.learnbox{
+    background-color:#ea0061;
+    padding:20px 30px;
+    margin:10px 0;
+    border:1px solid black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.learnicon{
+    /* background-color: #f08809; */
+    padding:5px 9px;
+    margin:10px;
+    font-size: 32px;
+}
+.learncontent h3{
+    padding: 5px;
+    color:#3e021b
+}
+.learncontent p{
+    padding:10px;
+}
+.learningbox{
+    padding:10px 10px;
+    margin:10px 0;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap:20px;
+}
+.learneffect{
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 10px;
+}
+
+.formsection{
+    padding:70px 60px;
+    background-color: #f0f0ff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.formleft{
+    /* background-color: #fec884; */
+    padding:20px 30px;
+    margin:10px 10px;
+    color:#3e021b;
+    width:600px;
+    left:0%;
+}
+.formleft h1{
+    padding:10px;
+    font-size: 38px;
+    font-style: italic;
+}
+.formleft p{
+    padding:10px;
+    font-size: 14px;
+}
+.btns{
+    padding: 20px 10px;
+}
+.formright {
+    padding:20px 30px;
+    margin:10px 10px;
+    color:#3e021b;
+    width:600px;  
+}
+.formright h3{
+    text-align: center;
+    font-size: 38px;
+    padding:5px;
+}
+.formright p{
+    padding: 5px;
+    text-align: center;
+}
+
+.formright .input{
+    padding:10px 5px;
+    margin: 6px 0;;
+}
+.formright .input input,
+.formright .input textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #3e021b;
+    padding: 10px  ;
+    outline:none;
+    color:#3e021b;   
+}
+.input p{
+    color:red;
+    font-size: 14px;
+    text-align: start;
+}
+.formright input ::Placeholder {
+    color: #3e021b;
+    font-size: 13px;
+    font-weight: 800;
+}
+.herosecion1{
+    background-color: #780535;
+    color: #fff;
+    padding: 70px 60px;
+    text-align: center;
+}
+.project-section {
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 80px 10%;
+    background: #fff;
+}
+
+
+.project-image {
+    width: 520px;
+    position: relative;
+}
+
+.project-image img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.image-box {
+    position: absolute;
+    left: -80px;
+    bottom: 25px;
+
+    width: 430px;
+    padding: 30px 35px;
+
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+
+    border-radius: 30px;
+    background: linear-gradient(135deg, #5d2990, #e04b91);
+}
+
+.project-content {
+    width: 520px;
+}
+
+.project-content h1 {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.project-content h1 b {
+    font-weight: 700;
+}
+
+.project-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.project-content ul {
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.project-content li {
+    font-size: 20px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.project-content li::first-letter {
+    color: #43c6c8;
+}
+
+.project-content a {
+    color: #54239b;
+    text-decoration: none;
+    font-size: 18px;
+}
+.teamsec {
+    padding:70px 60px;
+    padding-bottom: 100px;
+
+}
+.teammember img{
+    
+    padding:20px;
+    width:300px;
+    height:400px;
+    border-radius:100%; 
+    background-color:#41cdefb3;
+    box-shadow: 0px -1px 0px 18px #2bb4c5;
+}
+
+.teammember {
+    /* background-color: #ee126e; */
+    text-align: center;
+    padding: 15px;
+    margin:20px 0;
+    width:400px;
+    height:400px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0px #0000;
+}
+.team{
+    position: relative;
+    /* background-color: #2bb4c5; */
+    padding: 20px 30px;
+    margin: 10px 10px;
+}
+.teaminfo{
+    background-color: #dadfe7;
+    padding: 25px 10px;
+    margin: 51px;
+    text-align: center;
+    border-radius: 10px;
+    width:300px;
+    position: absolute;
+    bottom: -75px;
+    
+}
+.allteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f96aa6; */
+    padding: 20px 30px;
+    margin:10px 10px;
+
+}
+footer {
+    background-color: #780535;
+    color: #fff;
+    padding: 70px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+.footerbox {
+    
+    padding: 20px 30px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+
+.footerbox h3 {
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.footerbox p {
+    padding: 10px;
+}
+
+
+.footerbox ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.footerbox ul li a {
+    text-decoration: none;
+    color: #f0f0ff;
+}
+
+
+.footerbox ul li a span {
+    padding: 0 10px;
+    color: #fff;
+}
+
+
+.footerbox ul li a:hover {
+    color: #e988b0;
+}
+
+.formright {
+    background-color:rosybrown;
+    border:2px solid black;
+    padding:50px;
+    margin:50px;
+    width:500px;
+    border-radius: 50px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        display: block;
+        position: relative;
+    }
+
+    .logo {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .logoimg img {
+        width: 60px;
+        padding: 0;
+    }
+
+    .mobileview {
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin: 0;
+    }
+    .menus {
+        background-color: #f96aa6;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        left: -99%;
+        z-index: 100;
+    }
+    .menu.open{
+        left:0%;
+
+    }
+
+    .menus ul li {
+        display: block;
+        padding: 15px;
+        margin: 5px 0;
+        background-color: #e988b0;
+    }
+
+    .menus ul li a {
+        font-size: 16px;
+    }
+    .submenus {
+        position: static;
+        width: 100%;
+    }
+
+    .submenus li {
+        width: 100% !important;
+        margin: 5px 0;
+    }
+    .herosec {
+        height: auto;
+        min-height: 100vh;
+        padding: 50px 10px;
+        background-attachment: scroll;
+    }
+
+    .herocontent {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .herocontent h1 {
+        font-size: 27px;
+    }
+
+    .herocontent p {
+        font-size: 14px;
+    }
+    .btns {
+        padding: 15px 5px;
+    }
+
+    .btns button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .lpart {
+        padding: 50px 10px;
+    }
+
+    .headpart {
+        padding: 15px 5px;
+    }
+
+    .headpart h1 {
+        font-size: 27px;
+    }
+
+    .headpart p {
+        font-size: 14px;
+    }
+
+    .learnbox {
+        display: block;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .learningbox {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .learneffect {
+        margin-bottom: 15px;
+    }
+    .formsection {
+        display: block;
+        padding: 50px 10px;
+    }
+
+    .formleft,
+    .formright {
+        width: 100%;
+        padding: 15px 10px;
+        margin: 10px 0;
+    }
+
+    .formleft h1 {
+        font-size: 25px;
+    }
+
+    .formright h3 {
+        font-size: 25px;
+    }
+    .project-section {
+        display: block;
+        padding: 50px 15px;
+    }
+
+    .project-image,
+    .project-content {
+        width: 100%;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: 250px;
+        border-radius: 25px;
+    }
+
+    .image-box {
+        position: relative;
+        left: 10px;
+        bottom: auto;
+        width: 90%;
+        margin-top: -60px;
+        padding: 20px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+
+    .project-content {
+        margin-top: 40px;
+    }
+
+    .project-content h1 {
+        font-size: 28px;
+    }
+
+    .project-content p {
+        font-size: 15px;
+    }
+
+    .project-content li {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+    .teamsec {
+        padding: 50px 10px;
+    }
+
+    .allteam {
+        display: block;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .team {
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+    .teammember {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .teammember img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .teaminfo {
+        position: relative;
+        width: 90%;
+        margin: -20px auto 20px;
+        bottom: auto;
+    }
+    footer {
+        display: block;
+        padding: 50px 10px;
+    }
+
+    .footerbox {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+}
+
+
+
+
+
+
+
